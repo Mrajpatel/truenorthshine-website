@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>True North Shine</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(to right, #00796b, #004d40);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services {
+      background-color: #e0f2f1;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+    .services ul {
+      list-style-type: none;
+      margin-top: 20px;
+    }
+    .services li {
+      margin-bottom: 15px;
+      font-size: 1.1em;
+    }
+    .btn {
+      background-color: #00796b;
+      color: white;
+      padding: 12px 25px;
+      text-decoration: none;
+      border-radius: 6px;
+      display: inline-block;
+      transition: background 0.3s;
+      margin-top: 20px;
+    }
+    .btn:hover {
+      background-color: #004d40;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    form {
+      background: #ffffff;
+      padding: 30px;
+      margin-top: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    input[type="submit"] {
+      background-color: #00796b;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background-color: #004d40;
+    }
+    .social-links {
+      margin-top: 20px;
+      text-align: center;
+    }
+    .social-links a {
+      margin: 0 10px;
+      color: #00796b;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .social-links a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>True North Shine</h1>
+    <p>Heavy Machinery & Home Cleaning Services in Grande Prairie, Alberta</p>
+  </header>
+
+  <section>
+    <h2>Welcome</h2>
+    <p>Hi! I'm Friesen, the owner of True North Shine. We specialize in making everything from your home to your heavy machinery sparkle like new. Proudly serving Grande Prairie and surrounding areas.</p>
+  </section>
+
+  <section class="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li><strong>Heavy Machinery Cleaning</strong> – Starting at $249</li>
+      <li><strong>Residential Deep Cleaning</strong> – Starting at $159</li>
+      <li><strong>Garage / Shop Cleanouts</strong> – Starting at $199</li>
+      <li><strong>Move-in / Move-out Cleaning</strong> – Starting at $179</li>
+    </ul>
+    <a href="mailto:contact@truenorthshine.ca" class="btn">Book a Cleaning</a>
+  </section>
+
+  <section>
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1581578017424-c080a6d6acb9?auto=format&fit=crop&w=800&q=80" alt="Home Cleaning">
+      <img src="https://images.unsplash.com/photo-1616401787864-e77cce420dce?auto=format&fit=crop&w=800&q=80" alt="Heavy Equipment">
+      <img src="https://images.unsplash.com/photo-1611095968599-5f3e7e05b5d3?auto=format&fit=crop&w=800&q=80" alt="Clean Garage">
+    </div>
+  </section>
+
+  <section>
+    <h2>Request a Quote</h2>
+    <form action="mailto:contact@truenorthshine.ca" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="details" placeholder="Tell us what you need cleaned..." rows="5" required></textarea>
+      <input type="submit" value="Request Quote">
+    </form>
+  </section>
+
+  <section>
+    <h2>Why Choose Us?</h2>
+    <p>With years of hands-on experience and a passion for quality, True North Shine is your trusted cleaning partner. We use eco-friendly products and always deliver with a smile.</p>
+  </section>
+
+  <footer>
+    <div class="social-links">
+      <a href="https://www.instagram.com/truenorthshine" target="_blank">Instagram</a>
+      <a href="mailto:contact@truenorthshine.ca">Email Us</a>
+    </div>
+    <p>Contact: Friesen | Grande Prairie, Alberta</p>
+    <p>&copy; 2025 True North Shine. All rights reserved.</p>
+  </footer>
+</body>
+</html>
